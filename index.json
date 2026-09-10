@@ -1,0 +1,674 @@
+{
+  "version": 1,
+  "generated": "2026-09-10T13:01:30.366Z",
+  "apps": [
+    {
+      "id": "muse",
+      "name": "Muse",
+      "version": "0.2.0",
+      "description": "Notes, cartes mentales, planches et canvas génératif.",
+      "category": "create",
+      "entry": "muse/hub.html",
+      "capabilities": [
+        "ai",
+        "storage",
+        "files",
+        "memory",
+        "interop:opus"
+      ],
+      "gradient": [
+        "#d8a31f",
+        "#d56f9b"
+      ],
+      "icon": "mindmap",
+      "width": 1280,
+      "height": 820,
+      "pro": false,
+      "trust": "first-party",
+      "minLumen": "0.2.0",
+      "tabs": [
+        {
+          "id": "notes",
+          "name": "Notes",
+          "hint": "Écrire, réécrire avec l'IA",
+          "url": "../notes/notes.html"
+        },
+        {
+          "id": "map",
+          "name": "Carte",
+          "hint": "Ramifier une idée en carte mentale",
+          "url": "../mindmap/mindmap.html"
+        },
+        {
+          "id": "board",
+          "name": "Planche",
+          "hint": "Assembler une direction visuelle",
+          "url": "../moodboard/moodboard.html"
+        },
+        {
+          "id": "canvas",
+          "name": "Canvas",
+          "hint": "Faire naître des idées par filiation",
+          "url": "../canvas/canvas.html"
+        }
+      ],
+      "url": "muse.lumenapp",
+      "sha256": "8ae9c1d5ca0c3f9bf09c364f6006834cf0261a2643ed2124b2805535d4b48bf6",
+      "size": 247950,
+      "files": 41
+    },
+    {
+      "id": "tempo",
+      "name": "Tempo",
+      "version": "0.2.0",
+      "description": "Vos tâches, au tableau ou au calendrier.",
+      "category": "organize",
+      "entry": "tempo/hub.html",
+      "capabilities": [
+        "ai",
+        "storage",
+        "notifications"
+      ],
+      "gradient": [
+        "#7867d8",
+        "#ff5e8a"
+      ],
+      "icon": "kanban",
+      "width": 1120,
+      "height": 760,
+      "pro": false,
+      "trust": "first-party",
+      "minLumen": "0.2.0",
+      "tabs": [
+        {
+          "id": "board",
+          "name": "Tableau",
+          "hint": "Colonnes, cartes, avancement",
+          "url": "../kanban/board.html"
+        },
+        {
+          "id": "agenda",
+          "name": "Agenda",
+          "hint": "Échéances et rappels datés",
+          "url": "../calendar/calendar.html"
+        }
+      ],
+      "url": "tempo.lumenapp",
+      "sha256": "6539e5d7a1dc9418ba0bc0aa18aaa6c94b92a71d0fdfde2c43f590f5d7ca5d8a",
+      "size": 161742,
+      "files": 24
+    },
+    {
+      "id": "prisme",
+      "name": "Prisme",
+      "version": "0.2.0",
+      "description": "Des tables locales à l'analyse jusqu'aux modèles entraînés.",
+      "category": "explore",
+      "entry": "prisme/hub.html",
+      "capabilities": [
+        "ai",
+        "storage",
+        "tables",
+        "files"
+      ],
+      "gradient": [
+        "#168f82",
+        "#5e5ce6"
+      ],
+      "icon": "chart",
+      "width": 1280,
+      "height": 820,
+      "pro": false,
+      "trust": "first-party",
+      "minLumen": "0.2.0",
+      "tabs": [
+        {
+          "id": "tables",
+          "name": "Tables",
+          "hint": "Bases locales interrogeables en langage naturel",
+          "url": "../tables/tables.html"
+        },
+        {
+          "id": "analysis",
+          "name": "Analyse",
+          "hint": "Explorer, croiser, visualiser",
+          "url": "../data-analysis/analysis.html"
+        },
+        {
+          "id": "models",
+          "name": "Modèles",
+          "hint": "Entraîner un modèle localement",
+          "url": "../ml/ml.html"
+        }
+      ],
+      "url": "prisme.lumenapp",
+      "sha256": "f3da1ab33807fc5fa4c85854700900b8426781a48982fa3df117b03cc050d0bb",
+      "size": 572789,
+      "files": 31
+    },
+    {
+      "id": "corpus",
+      "name": "Corpus",
+      "version": "0.2.0",
+      "description": "Vos documents indexés (RAG) et les enquêtes sourcées de l'agent.",
+      "category": "explore",
+      "entry": "corpus/hub.html",
+      "capabilities": [
+        "ai",
+        "storage",
+        "files",
+        "network",
+        "memory"
+      ],
+      "gradient": [
+        "#37a87a",
+        "#3a9baa"
+      ],
+      "icon": "knowledge",
+      "width": 1180,
+      "height": 800,
+      "pro": false,
+      "trust": "first-party",
+      "minLumen": "0.2.0",
+      "tabs": [
+        {
+          "id": "library",
+          "name": "Bibliothèque",
+          "hint": "Vos documents indexés (RAG)",
+          "url": "../knowledge/knowledge.html"
+        },
+        {
+          "id": "inquiry",
+          "name": "Enquête",
+          "hint": "Un agent fouille et rend un rapport sourcé",
+          "url": "../research/research.html"
+        }
+      ],
+      "url": "corpus.lumenapp",
+      "sha256": "bac270c531c7164f30932e42b63c38b54f134c9d9b835e655be7b2df738b47ba",
+      "size": 159260,
+      "files": 26
+    },
+    {
+      "id": "echo",
+      "name": "Écho",
+      "version": "0.2.0",
+      "description": "Podcasts à deux voix et gestion des voix locales.",
+      "category": "audio",
+      "entry": "echo/hub.html",
+      "capabilities": [
+        "ai",
+        "storage",
+        "files"
+      ],
+      "gradient": [
+        "#ff6a3d",
+        "#19c3ff"
+      ],
+      "icon": "podcast",
+      "width": 1200,
+      "height": 800,
+      "pro": false,
+      "trust": "first-party",
+      "minLumen": "0.2.0",
+      "tabs": [
+        {
+          "id": "podcast",
+          "name": "Podcast",
+          "hint": "Vos docs en discussion à deux voix",
+          "url": "../podcast/podcast.html"
+        },
+        {
+          "id": "voices",
+          "name": "Voix",
+          "hint": "Essayer et gérer les voix locales",
+          "url": "../voicelab/voicelab.html"
+        }
+      ],
+      "url": "echo.lumenapp",
+      "sha256": "09676d4b00ac9e933b8f731dfae9aae6fe605e5c1adc00b907e26ee1aa6ec072",
+      "size": 152337,
+      "files": 25
+    },
+    {
+      "id": "arcade",
+      "name": "Arcade",
+      "version": "0.2.0",
+      "description": "Jeux, aventure générée et compagnon IA.",
+      "category": "play",
+      "entry": "arcade/hub.html",
+      "capabilities": [
+        "ai",
+        "storage",
+        "memory"
+      ],
+      "gradient": [
+        "#ff5e8a",
+        "#7c5cff"
+      ],
+      "icon": "games",
+      "width": 1160,
+      "height": 790,
+      "pro": false,
+      "trust": "first-party",
+      "minLumen": "0.2.0",
+      "tabs": [
+        {
+          "id": "games",
+          "name": "Jeux",
+          "hint": "Mini-jeux",
+          "url": "../games/games.html"
+        },
+        {
+          "id": "adventure",
+          "name": "Aventure",
+          "hint": "Jeu de rôle textuel illustré",
+          "url": "../adventure/adventure.html"
+        },
+        {
+          "id": "pet",
+          "name": "Compagnon",
+          "hint": "Une créature qui vit et se souvient de vous",
+          "url": "../aipet/aipet.html"
+        }
+      ],
+      "url": "arcade.lumenapp",
+      "sha256": "75973115075d74f39d7e3fb625f7068c96fa78ace47bc61e2e0d75bec0ef0b4e",
+      "size": 648718,
+      "files": 33
+    },
+    {
+      "id": "forge",
+      "name": "Forge",
+      "version": "0.2.0",
+      "description": "Décrire une app, la générer, puis la coder — sans changer de fenêtre.",
+      "category": "lab",
+      "entry": "forge/hub.html",
+      "capabilities": [
+        "ai",
+        "storage",
+        "files"
+      ],
+      "gradient": [
+        "#7c3aed",
+        "#0ea5e9"
+      ],
+      "icon": "editor",
+      "width": 1240,
+      "height": 800,
+      "pro": false,
+      "trust": "first-party",
+      "minLumen": "0.2.0",
+      "tabs": [
+        {
+          "id": "code",
+          "name": "Code",
+          "hint": "Éditer le code des apps HTML",
+          "url": "../editor/editor.html"
+        }
+      ],
+      "url": "forge.lumenapp",
+      "sha256": "50666175b1baad8eb9bc46e4a0e20fbd4e08c27abf791ccc24ba67e0fc5a7b79",
+      "size": 153041,
+      "files": 21
+    },
+    {
+      "id": "imagestudio",
+      "name": "Studio d'images",
+      "version": "0.2.0",
+      "description": "Génération d'images locale (Bonsai, Ollama ou API).",
+      "category": "create",
+      "entry": "studio/studio.html",
+      "capabilities": [
+        "ai",
+        "storage",
+        "files"
+      ],
+      "gradient": [
+        "#6570c8",
+        "#d79577"
+      ],
+      "icon": "image",
+      "width": 1080,
+      "height": 720,
+      "pro": false,
+      "trust": "first-party",
+      "minLumen": "0.2.0",
+      "url": "imagestudio.lumenapp",
+      "sha256": "6b2b45ad8cda2e547c0b5a6ba3a4eb345c440db3a1c5d2148e07298ec244a201",
+      "size": 119491,
+      "files": 15
+    },
+    {
+      "id": "musicstudio",
+      "name": "Studio musical",
+      "version": "0.2.0",
+      "description": "Studio musical génératif : presets, séquenceur, export WAV.",
+      "category": "audio",
+      "entry": "musicstudio/studio.html",
+      "capabilities": [
+        "ai",
+        "storage",
+        "files"
+      ],
+      "gradient": [
+        "#7c5cff",
+        "#19c3ff"
+      ],
+      "icon": "music",
+      "width": 1180,
+      "height": 800,
+      "pro": false,
+      "trust": "first-party",
+      "minLumen": "0.2.0",
+      "url": "musicstudio.lumenapp",
+      "sha256": "e244e44a8753c0275513b6c1a34f76cf4579e897a4f891a57d76a3ad6e0ed751",
+      "size": 142165,
+      "files": 20
+    },
+    {
+      "id": "browser",
+      "name": "Navigateur",
+      "version": "0.2.0",
+      "description": "Naviguer sur le web, avec résumé, traduction et analyse par l'IA.",
+      "category": "explore",
+      "entry": "browser/browser.html",
+      "capabilities": [
+        "ai",
+        "storage",
+        "network",
+        "files"
+      ],
+      "gradient": [
+        "#2f9fe8",
+        "#0a84ff"
+      ],
+      "icon": "globe",
+      "width": 1180,
+      "height": 780,
+      "pro": false,
+      "trust": "first-party",
+      "minLumen": "0.2.0",
+      "url": "browser.lumenapp",
+      "sha256": "5a065482837caab17544d5b6d55f851d8c951c7d9fbf373940bb21496393609c",
+      "size": 145280,
+      "files": 19
+    },
+    {
+      "id": "budget",
+      "name": "Budget",
+      "version": "0.2.0",
+      "description": "Dépenses, objectifs et conseils de l'IA.",
+      "category": "organize",
+      "entry": "budget/budget.html",
+      "capabilities": [
+        "ai",
+        "storage",
+        "tables"
+      ],
+      "gradient": [
+        "#30d158",
+        "#0a84ff"
+      ],
+      "icon": "chart",
+      "width": 1180,
+      "height": 780,
+      "pro": false,
+      "trust": "first-party",
+      "minLumen": "0.2.0",
+      "url": "budget.lumenapp",
+      "sha256": "84b393c436952873e34e235eae64877ea037c625fe63c2cf06c87650aa8ae649",
+      "size": 142526,
+      "files": 20
+    },
+    {
+      "id": "domotique",
+      "name": "Domotique",
+      "version": "0.2.0",
+      "description": "Objets connectés et firmwares ESP32/Pico.",
+      "category": "lab",
+      "entry": "domotique/domotique.html",
+      "capabilities": [
+        "ai",
+        "storage",
+        "network"
+      ],
+      "gradient": [
+        "#2aa98f",
+        "#2670c9"
+      ],
+      "icon": "cpu",
+      "width": 1180,
+      "height": 780,
+      "pro": false,
+      "trust": "first-party",
+      "minLumen": "0.2.0",
+      "url": "domotique.lumenapp",
+      "sha256": "967b9f4cca190d274689452ad1d37a429b7207abb2d7fa13d4f2a9f215d117d2",
+      "size": 154811,
+      "files": 22
+    },
+    {
+      "id": "relia",
+      "name": "Relia",
+      "version": "0.2.0",
+      "description": "CRM assisté par l'IA : projets, tâches, clients, devis et factures Factur-X.",
+      "category": "pro",
+      "entry": "crm/crm.html",
+      "capabilities": [
+        "ai",
+        "storage",
+        "tables",
+        "files",
+        "notifications"
+      ],
+      "gradient": [
+        "#0a84ff",
+        "#5e5ce6"
+      ],
+      "icon": "file-text",
+      "width": 1240,
+      "height": 820,
+      "pro": true,
+      "trust": "first-party",
+      "minLumen": "0.2.0",
+      "url": "relia.lumenapp",
+      "sha256": "5027bd5409bf0929c7f43611d9d70f2dd2e4c27e69833149f4e540ee52370df9",
+      "size": 187813,
+      "files": 26
+    },
+    {
+      "id": "meet",
+      "name": "Réunion",
+      "version": "0.2.0",
+      "description": "Visio et chat d'équipe sur votre réseau, avec compte rendu par l'IA.",
+      "category": "pro",
+      "entry": "meet/meet.html",
+      "capabilities": [
+        "ai",
+        "storage",
+        "network",
+        "notifications"
+      ],
+      "gradient": [
+        "#0a84ff",
+        "#16b8a6"
+      ],
+      "icon": "users",
+      "width": 1320,
+      "height": 860,
+      "pro": true,
+      "trust": "first-party",
+      "minLumen": "0.2.0",
+      "url": "meet.lumenapp",
+      "sha256": "e168d8744bc0098b57ab6e337118912341e29429e9951d005dcd0045c043f947",
+      "size": 174059,
+      "files": 30
+    },
+    {
+      "id": "dbstudio",
+      "name": "DB Studio",
+      "version": "0.2.0",
+      "description": "Modéliser une base : tables, champs typés, relations et formulaires.",
+      "category": "pro",
+      "entry": "dbstudio/dbstudio.html",
+      "capabilities": [
+        "ai",
+        "storage",
+        "tables"
+      ],
+      "gradient": [
+        "#5e5ce6",
+        "#30d158"
+      ],
+      "icon": "database",
+      "width": 1300,
+      "height": 850,
+      "pro": true,
+      "trust": "first-party",
+      "minLumen": "0.2.0",
+      "url": "dbstudio.lumenapp",
+      "sha256": "9f363f2b90321cfae865362f9e9d6c8adf2b6049a9ac9ef04d07fc6c4b4bb3b0",
+      "size": 176385,
+      "files": 27
+    },
+    {
+      "id": "etl",
+      "name": "Flux de données",
+      "version": "0.2.0",
+      "description": "ETL : lire une source, transformer étape par étape, écrire le résultat.",
+      "category": "pro",
+      "entry": "etl/etl.html",
+      "capabilities": [
+        "ai",
+        "storage",
+        "tables",
+        "network"
+      ],
+      "gradient": [
+        "#16b8a6",
+        "#ff9f0a"
+      ],
+      "icon": "workflow",
+      "width": 1320,
+      "height": 860,
+      "pro": true,
+      "trust": "first-party",
+      "minLumen": "0.2.0",
+      "url": "etl.lumenapp",
+      "sha256": "b4e540bafcdec8c5bbd59a2e9a7a1963e14392440fca9f689a8f3dc32ad1f02b",
+      "size": 161662,
+      "files": 25
+    },
+    {
+      "id": "reporting",
+      "name": "Reporting",
+      "version": "0.2.0",
+      "description": "Rapports d'entreprise : indicateurs, graphiques et export, construits avec l'IA.",
+      "category": "pro",
+      "entry": "reporting/reporting.html",
+      "capabilities": [
+        "ai",
+        "storage",
+        "tables",
+        "files"
+      ],
+      "gradient": [
+        "#ff9f0a",
+        "#ff375f"
+      ],
+      "icon": "layout-dashboard",
+      "width": 1320,
+      "height": 860,
+      "pro": true,
+      "trust": "first-party",
+      "minLumen": "0.2.0",
+      "url": "reporting.lumenapp",
+      "sha256": "891fceb72c583b9a5bc23d337a64233224172fa3d9549c0ad7969f57ce50534f",
+      "size": 533877,
+      "files": 27
+    },
+    {
+      "id": "datasources",
+      "name": "Sources de données",
+      "version": "0.2.0",
+      "description": "Centre de connexions : bases, partages et API mis à disposition des apps Pro.",
+      "category": "pro",
+      "entry": "datasources/datasources.html",
+      "capabilities": [
+        "storage",
+        "tables",
+        "network"
+      ],
+      "gradient": [
+        "#16b8a6",
+        "#5e5ce6"
+      ],
+      "icon": "plug",
+      "width": 1300,
+      "height": 850,
+      "pro": true,
+      "trust": "first-party",
+      "minLumen": "0.2.0",
+      "url": "datasources.lumenapp",
+      "sha256": "31d248f41b97338bc40cbd4039eda1c4b2385cf0cd29f8298cfee7ab36ffe8b6",
+      "size": 118468,
+      "files": 17
+    },
+    {
+      "id": "directory",
+      "name": "Annuaire",
+      "version": "0.2.0",
+      "description": "Les personnes du réseau : présence, messages et invitations en réunion.",
+      "category": "pro",
+      "entry": "directory/directory.html",
+      "capabilities": [
+        "storage",
+        "network",
+        "notifications"
+      ],
+      "gradient": [
+        "#0a84ff",
+        "#16b8a6"
+      ],
+      "icon": "users",
+      "width": 980,
+      "height": 760,
+      "pro": true,
+      "trust": "first-party",
+      "minLumen": "0.2.0",
+      "url": "directory.lumenapp",
+      "sha256": "2c5530ae592b7df4dcbe4763aaf0847e4df6fa99b2587e9bfcdf6a54aacd24dd",
+      "size": 114054,
+      "files": 18
+    },
+    {
+      "id": "messages",
+      "name": "Messagerie d'équipe",
+      "version": "0.2.0",
+      "description": "Conversations chiffrées de bout en bout avec votre équipe.",
+      "category": "pro",
+      "entry": "messages/messages.html",
+      "capabilities": [
+        "storage",
+        "network",
+        "notifications"
+      ],
+      "gradient": [
+        "#5e5ce6",
+        "#0a84ff"
+      ],
+      "icon": "messages-square",
+      "width": 1180,
+      "height": 820,
+      "pro": true,
+      "trust": "first-party",
+      "minLumen": "0.2.0",
+      "url": "messages.lumenapp",
+      "sha256": "cb3f5bc26cc7d176012b6fbff12a602d7853d67453e7d8db15ea8b101c2558b9",
+      "size": 112864,
+      "files": 16
+    }
+  ],
+  "signature": "BcMWvJE_juTwPk29guNQwMMtR_0_pBv3bFB3dIvaSTgtIHmaXlsN5c58GQ3g_hVEVXND94NKoCHxH8n5nFDmCQ"
+}
