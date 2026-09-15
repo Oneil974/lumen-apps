@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-09-15T17:07:41.429Z",
+  "generated": "2026-09-15T18:24:50.517Z",
   "apps": [
     {
       "id": "notes",
@@ -107,8 +107,8 @@
         }
       ],
       "url": "notes.lumenapp",
-      "sha256": "156b2e2fce6d03855a4431512b6dc247724e667b16a9eb90f48bb8c7608bd76b",
-      "size": 173629,
+      "sha256": "343b64f5ec742cae3bb401297fe62947c77a682dbaa827abfcdf09b4eb6b5b23",
+      "size": 177076,
       "files": 29
     },
     {
@@ -134,8 +134,8 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "mindmap.lumenapp",
-      "sha256": "72de2daf49a50663597e230dc783ebcf29ce9f5d70d72759c1fff9a0cd89bcc3",
-      "size": 167110,
+      "sha256": "1af4bfe064a03aad489622ad1ae95bc5d060f262f3296729cf59e9d157a070ba",
+      "size": 170557,
       "files": 25
     },
     {
@@ -161,8 +161,8 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "moodboard.lumenapp",
-      "sha256": "310d83098c99f5c88ed812efdf12363c952c71bf3ff78d0dd87c5290ed609677",
-      "size": 187963,
+      "sha256": "61db30d85e2a01fb6f13653ea408175ce7bf016ff1bab204a17d6043238b719b",
+      "size": 191410,
       "files": 28
     },
     {
@@ -189,8 +189,8 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "canvas.lumenapp",
-      "sha256": "f0488291056f33043d34f6ef3560cd0dfc420dc706cdcab77bad40435004e930",
-      "size": 186757,
+      "sha256": "591640ffbe13526e2149a95e374194fe4833437fbf44a391e7b1e49d2ea3115e",
+      "size": 190204,
       "files": 26
     },
     {
@@ -216,8 +216,8 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "kanban.lumenapp",
-      "sha256": "b27db96b6471ee326594b93c9b049952351183bf1c9189c2e9fc75ac144dd2e7",
-      "size": 168668,
+      "sha256": "8c6ef139168c6ff222edd6700447189b692887e06810a2aaee6d61ec917b7dc8",
+      "size": 172115,
       "files": 25
     },
     {
@@ -243,8 +243,8 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "calendar.lumenapp",
-      "sha256": "27b108108b85d2ac243729ff71b4137380fc26279b1e02e222d73e0c16e2e471",
-      "size": 163823,
+      "sha256": "25fc5565c4097c58610f4b745c2b21710dd91addfb89a17d6f78d88235cbac2d",
+      "size": 167270,
       "files": 25
     },
     {
@@ -271,8 +271,8 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "tables.lumenapp",
-      "sha256": "972e4f26f98f6c1d3219bf15f4b356a20007345d48d99a4ab79359e29f45bcc8",
-      "size": 168428,
+      "sha256": "af3c35d96ede542ceb6e7d84a3369c0707306c7f424d69d68a80430a48d5efa1",
+      "size": 171875,
       "files": 26
     },
     {
@@ -299,8 +299,8 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "dataanalysis.lumenapp",
-      "sha256": "4166f5303b923bbb5462192e1ed046975ef973894ac33561fd4e82756582d99f",
-      "size": 557545,
+      "sha256": "f0d9fa712242179e22c6a052fe18075201de4146685ac7ef3341f9f2aff8081e",
+      "size": 560992,
       "files": 29
     },
     {
@@ -327,8 +327,8 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "ml.lumenapp",
-      "sha256": "54b6c5c06583c35e1340558673f2dfdafd0fe99fe4a92a496788aba0f26cc6db",
-      "size": 162885,
+      "sha256": "37aa0c2b05b6c4779f80f398f356a86b3cb6cff7fa5b90715524b69025297ddd",
+      "size": 166332,
       "files": 21
     },
     {
@@ -355,8 +355,8 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "knowledge.lumenapp",
-      "sha256": "3603510a47880c16e520bad434fdb9303f71e630a424613c5cae1366b333d675",
-      "size": 165339,
+      "sha256": "738c9cc2fff36910964c449d18e9a543b183d13fc11b1d10690cca5f231b7906",
+      "size": 168786,
       "files": 26
     },
     {
@@ -384,8 +384,8 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "research.lumenapp",
-      "sha256": "f87b9ce8a7c39778b502587f7b7c833deb8331bea184bde6cf897f13b7cacfb4",
-      "size": 149784,
+      "sha256": "12aa1d080980252add1f022d35a60d3acffed0707d6b00468e5f56986636c52e",
+      "size": 153231,
       "files": 21
     },
     {
@@ -411,8 +411,8 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "podcast.lumenapp",
-      "sha256": "e5f6081d4e819b92ecd983fd9b95f8d9c3d46be2379655ad07e0efc863a27cd6",
-      "size": 164088,
+      "sha256": "50f8664e956a0eeb5207169ff5a9033398bbfb77f2fee0a81b44dc0e1ccae079",
+      "size": 167535,
       "files": 26
     },
     {
@@ -438,8 +438,8 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "voicelab.lumenapp",
-      "sha256": "e58f1d02614ce9121820d1f792bb40d8b8fc4a7c610b854e21710bd1b0b2b5c6",
-      "size": 105099,
+      "sha256": "2cf5c7369d85629b78483006eb815cc575a637026c61c8bc26d8d06fe35723e4",
+      "size": 108084,
       "files": 12
     },
     {
@@ -464,8 +464,8 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "games.lumenapp",
-      "sha256": "aca2d418ef8978ba4831a9a67a229a580b053454cd38c2ba3e71aaa5da406c53",
-      "size": 149237,
+      "sha256": "73a0a86fc6ad5da1c35d6748a1d0b25b3457c0b812c38cae6f6a53b7ea15b8e4",
+      "size": 152684,
       "files": 19
     },
     {
@@ -491,8 +491,8 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "adventure.lumenapp",
-      "sha256": "3a13c26b91572f9e2488880998af8c332b5b1a6719b36985f09277db4c295880",
-      "size": 154025,
+      "sha256": "9d3a384af71a1d1c6b2c8cf4c8dc993b4b557c038cc82068d4905a569e93fd34",
+      "size": 157472,
       "files": 20
     },
     {
@@ -518,8 +518,8 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "aipet.lumenapp",
-      "sha256": "d6402bac5912b7ffcaf9842785879a5ff20d642bdb9ce33a7167439f56cff973",
-      "size": 622526,
+      "sha256": "dc29e9effce3ca84a47bbd22dcf9b404a071c4a375c5db9c5a722263b7889717",
+      "size": 625973,
       "files": 27
     },
     {
@@ -545,8 +545,8 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "editor.lumenapp",
-      "sha256": "6cd5cbe677f82779f827a97ba324db375a0eecf789f982f76bf808cfe77b9375",
-      "size": 162763,
+      "sha256": "0968bf5f4ec31fa4aae7ae715ca1b35294002bd475c5cea05df908268fcac4f6",
+      "size": 166210,
       "files": 22
     },
     {
@@ -572,8 +572,8 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "imagestudio.lumenapp",
-      "sha256": "3176ae7ce3d9d3c69cdbf114cb567beb96f77414331f6b0b5b6890ba489a42d8",
-      "size": 126766,
+      "sha256": "f21a7b7bcbf185c43f61466798b7d47cda94ed214ca762eaf4a0be6307fa6b46",
+      "size": 130227,
       "files": 15
     },
     {
@@ -599,8 +599,8 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "musicstudio.lumenapp",
-      "sha256": "43bce09f9a50469292fd8e8bca4d1832f83d88ab529fdc801356f36f934da0ce",
-      "size": 161763,
+      "sha256": "008a47612712cd75bfdfc2b15ba9220a8843393d0a290df8f4f34b3fca41c919",
+      "size": 165210,
       "files": 24
     },
     {
@@ -627,8 +627,8 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "browser.lumenapp",
-      "sha256": "7b34afb27ba5962905d0deead0fa8b997b254b2d8ba054328e8ec5bf98b6ad25",
-      "size": 157388,
+      "sha256": "0e99077e075933eebd26f61c95c11e3e045a8d0a2166d2f298938a69a3011b11",
+      "size": 160835,
       "files": 20
     },
     {
@@ -654,8 +654,8 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "budget.lumenapp",
-      "sha256": "0f509cc3cb100cbc55d64649fbdb0cc4a7c7e76570b1b4f432ecc5076a3c807f",
-      "size": 162124,
+      "sha256": "2dd2b38d2c79845693ecd9b4c9e7d1dd9068bb5fa3c6475e78b2ca870ced46c6",
+      "size": 165571,
       "files": 24
     },
     {
@@ -681,8 +681,8 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "domotique.lumenapp",
-      "sha256": "59f8ee5e16c2c49fe24bc811f1f0ac6526212381e5fb4b89e8f6d56f5129feb3",
-      "size": 174409,
+      "sha256": "f782abf11d0fbc3c179831aa468a06a4e9a98dad844763b4373a310e9dc720c6",
+      "size": 177856,
       "files": 26
     },
     {
@@ -710,9 +710,9 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "relia.lumenapp",
-      "sha256": "e910439c6fcc877eafb4925409d771bf843dc67fa89a022a777e6c77a2bbbc34",
-      "size": 207469,
-      "files": 30
+      "sha256": "ae0e5960b6934514943d1e5e2d3b1c36c41af8fd52847b1a13a01a5e943e280f",
+      "size": 211053,
+      "files": 31
     },
     {
       "id": "meet",
@@ -738,9 +738,9 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "meet.lumenapp",
-      "sha256": "94a8ab74fd3930670e18610caf1832aedb355d32bd03ce1f558a4971cbd7082e",
-      "size": 186678,
-      "files": 31
+      "sha256": "bee7af152c7b3df3128a63847f905e09bb5199a90b45a90d69aadc73d4d10656",
+      "size": 191765,
+      "files": 32
     },
     {
       "id": "dbstudio",
@@ -765,9 +765,9 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "dbstudio.lumenapp",
-      "sha256": "68a4d4134407dafe8152a2c3cbb31efe301c33acc77484b3cb181320ccd2ff3e",
-      "size": 192819,
-      "files": 30
+      "sha256": "e8697f15b6536043e700a9f1d69310c5816e7f9ee27733b7ae8a1d2cf58859f1",
+      "size": 201664,
+      "files": 33
     },
     {
       "id": "etl",
@@ -793,9 +793,9 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "etl.lumenapp",
-      "sha256": "b86febdcdd1e2e7c8991965da14de9132c8546b8daf2e977a9fc0fcbe20eafaa",
-      "size": 178096,
-      "files": 28
+      "sha256": "c28c963cfc18f2e8a6dca999de80fc1c10977617625bc0b657efa8935c079bbc",
+      "size": 183193,
+      "files": 29
     },
     {
       "id": "reporting",
@@ -821,9 +821,9 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "reporting.lumenapp",
-      "sha256": "31ab625b03c433ef11ee27f89a2b8ada1ec76ac6d4ff99b0e3fd19f9a783f55a",
-      "size": 550311,
-      "files": 30
+      "sha256": "67f9b1511e282a45d9018a7f716ed51afa9080d06ab75986cca6a13fa0d8284a",
+      "size": 559115,
+      "files": 33
     },
     {
       "id": "datasources",
@@ -848,9 +848,9 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "datasources.lumenapp",
-      "sha256": "f9a99b4f156b6a69e36ea4b040ca867ac8d8125f1183d341ea60f32fe28be95f",
-      "size": 124580,
-      "files": 17
+      "sha256": "789d41acd01d09009cde4408f6c7957dd6446b8eac6c22a90c8c8484462b616b",
+      "size": 129228,
+      "files": 18
     },
     {
       "id": "directory",
@@ -875,9 +875,9 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "directory.lumenapp",
-      "sha256": "8fb8cf9e014b72995631e0482b058b5187567c35d8fb8f0ac1aaa77fb613df37",
-      "size": 120166,
-      "files": 18
+      "sha256": "8d216d81540f9e2a822b98250f3295f917c3d3f5b789c20095d7ae5dfe6b68a8",
+      "size": 125264,
+      "files": 19
     },
     {
       "id": "messages",
@@ -902,10 +902,10 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "messages.lumenapp",
-      "sha256": "6b06c9359b5142fe11cbf700964b6bf07502ea80ab6feb1b06e8919892e75721",
-      "size": 118976,
-      "files": 16
+      "sha256": "0400bed779ddc7eba52bdea42e7caecbf45abee552c12d1b4eb7f64f6c053c90",
+      "size": 124100,
+      "files": 17
     }
   ],
-  "signature": "KCfU0NmBYPXCQaxhml-zQ5sBBF4qWxC91-JcdKR0WMQ3Uiqxqvztkwjvah_i7NdiJZrvm9DXXrFUZWaT1b6BCw"
+  "signature": "issgpTENBnUcRNkMBJaJsBxgcZtPTnh_MQLrO9NZuke3EaraFJ3Au8_b9HJ_JyElSAsgvfHQ8sJMxYWJjPFADw"
 }
