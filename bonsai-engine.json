@@ -11,8 +11,8 @@
     "linux-x64": {
       "version": "20260918-mlxb9effaf6",
       "file": "lumen-bonsai-engine-linux-x64-20260918-mlxb9effaf6.zip",
-      "size": 3140025059,
-      "sha256": "9bcef840806677492937dbe08afaf38ef253b799a070bffeac62b3eb4a62e04f",
+      "size": 3140025830,
+      "sha256": "03cde5ed3d3cf3a744f3092e210c01c3097136eb0cadfc832491b1c9ab8ccdcf",
       "updated": "2026-09-18",
       "parts": [
         {
@@ -24,8 +24,8 @@
         {
           "file": "lumen-bonsai-engine-linux-x64-20260918-mlxb9effaf6.zip.part2",
           "url": "https://github.com/Oneil974/lumen-app/releases/download/bonsai-engine/lumen-bonsai-engine-linux-x64-20260918-mlxb9effaf6.zip.part2",
-          "size": 1147730659,
-          "sha256": "7044c532dbaa64b0c5ec26cd9cdf708a6bf533f1f3f9f64fba2dbf57509a88c1"
+          "size": 1147731430,
+          "sha256": "dadd43c525985d5e58a2bc42440bce9892014209f47ebd63c532a028e4b36b2e"
         }
       ]
     }
