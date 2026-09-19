@@ -28,7 +28,28 @@
           "sha256": "dfbf8fdf62c39d5d250ac1bc662a515ac6d59c4fcc4ff46800f4e08f2f52e20c"
         }
       ]
+    },
+    "windows-x64": {
+      "version": "20260919-gemlite",
+      "file": "lumen-bonsai-engine-windows-x64-20260919-gemlite.zip",
+      "size": 2900232910,
+      "sha256": "96951be842ec711ca0e5fb5b184a911e2cc497626c145139ce235aa9033fc42d",
+      "updated": "2026-09-19",
+      "parts": [
+        {
+          "file": "lumen-bonsai-engine-windows-x64-20260919-gemlite.zip.part1",
+          "url": "https://github.com/Oneil974/lumen-app/releases/download/bonsai-engine/lumen-bonsai-engine-windows-x64-20260919-gemlite.zip.part1",
+          "size": 1992294400,
+          "sha256": "f7b2406b18b36c5ea4ba57034f3fac08b7f17a33ba3dee1f6bc5fd1c46c35a2a"
+        },
+        {
+          "file": "lumen-bonsai-engine-windows-x64-20260919-gemlite.zip.part2",
+          "url": "https://github.com/Oneil974/lumen-app/releases/download/bonsai-engine/lumen-bonsai-engine-windows-x64-20260919-gemlite.zip.part2",
+          "size": 907938510,
+          "sha256": "e217699b1389e748e605838892dfd482c565ddd42fa4c5fcaf54b4b246b461ae"
+        }
+      ]
     }
   },
-  "updated": "2026-09-18"
+  "updated": "2026-09-19"
 }
