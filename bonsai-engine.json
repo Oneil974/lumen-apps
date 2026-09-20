@@ -30,26 +30,26 @@
       ]
     },
     "windows-x64": {
-      "version": "20260919-gemlite",
-      "file": "lumen-bonsai-engine-windows-x64-20260919-gemlite.zip",
-      "size": 2900232910,
-      "sha256": "96951be842ec711ca0e5fb5b184a911e2cc497626c145139ce235aa9033fc42d",
-      "updated": "2026-09-19",
+      "version": "20260920-gemlite",
+      "file": "lumen-bonsai-engine-windows-x64-20260920-gemlite.zip",
+      "size": 2919524450,
+      "sha256": "5dabdfd2c49f913d029fd005aaa230f6070c8e4303a2c1c90d7cba487995e7e1",
+      "updated": "2026-09-20",
       "parts": [
         {
-          "file": "lumen-bonsai-engine-windows-x64-20260919-gemlite.zip.part1",
-          "url": "https://github.com/Oneil974/lumen-app/releases/download/bonsai-engine/lumen-bonsai-engine-windows-x64-20260919-gemlite.zip.part1",
+          "file": "lumen-bonsai-engine-windows-x64-20260920-gemlite.zip.part1",
+          "url": "https://github.com/Oneil974/lumen-app/releases/download/bonsai-engine/lumen-bonsai-engine-windows-x64-20260920-gemlite.zip.part1",
           "size": 1992294400,
-          "sha256": "f7b2406b18b36c5ea4ba57034f3fac08b7f17a33ba3dee1f6bc5fd1c46c35a2a"
+          "sha256": "625d10b1644b824b48cb0c40ec8ce314fa444efa56172594ac82b7b42dd500b5"
         },
         {
-          "file": "lumen-bonsai-engine-windows-x64-20260919-gemlite.zip.part2",
-          "url": "https://github.com/Oneil974/lumen-app/releases/download/bonsai-engine/lumen-bonsai-engine-windows-x64-20260919-gemlite.zip.part2",
-          "size": 907938510,
-          "sha256": "e217699b1389e748e605838892dfd482c565ddd42fa4c5fcaf54b4b246b461ae"
+          "file": "lumen-bonsai-engine-windows-x64-20260920-gemlite.zip.part2",
+          "url": "https://github.com/Oneil974/lumen-app/releases/download/bonsai-engine/lumen-bonsai-engine-windows-x64-20260920-gemlite.zip.part2",
+          "size": 927230050,
+          "sha256": "701dbd9e6a672a5d3084f0aed19b7368e6aaac5ed89adbae8959bcb2a4e4d154"
         }
       ]
     }
   },
-  "updated": "2026-09-19"
+  "updated": "2026-09-20"
 }
