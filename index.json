@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-09-25T05:43:47.040Z",
+  "generated": "2026-09-27T07:00:42.793Z",
   "apps": [
     {
       "id": "notes",
@@ -116,9 +116,9 @@
         }
       },
       "url": "notes.lumenapp",
-      "sha256": "db08c32594c1196afdca498489b6023b8093517b7b31f20e410358325ebf0e4c",
-      "size": 1221949,
-      "files": 37
+      "sha256": "c0c62695da8f9e7daaded47bff857ab02cb32b7384da3eb57afe80846d8b189e",
+      "size": 1231622,
+      "files": 38
     },
     {
       "id": "mindmap",
@@ -130,7 +130,8 @@
       "capabilities": [
         "ai",
         "storage",
-        "files"
+        "files",
+        "interop:opus"
       ],
       "gradient": [
         "#d8a31f",
@@ -143,9 +144,9 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "mindmap.lumenapp",
-      "sha256": "adedee96efbac58948e01f01358dbb5bd54cd9085e76a6b993dd17b11829b833",
-      "size": 242813,
-      "files": 30
+      "sha256": "ed00c9c0faa3f68ee72db68ffccdabe47dce37a670b1d85bc4aa6e5d54c75837",
+      "size": 251638,
+      "files": 31
     },
     {
       "id": "moodboard",
@@ -157,7 +158,8 @@
       "capabilities": [
         "ai",
         "storage",
-        "files"
+        "files",
+        "interop:opus"
       ],
       "gradient": [
         "#d56f9b",
@@ -170,9 +172,9 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "moodboard.lumenapp",
-      "sha256": "6271f3043154345e5c7419ee6e21e63564cb26520e8aab37aeec88e3516b65b5",
-      "size": 265963,
-      "files": 33
+      "sha256": "10d4a87500356ab6d0675fe0c50b3e9d315ac8bba3baa3a70bac7a12d7f3c93e",
+      "size": 274908,
+      "files": 34
     },
     {
       "id": "canvas",
@@ -185,7 +187,8 @@
         "ai",
         "storage",
         "files",
-        "memory"
+        "memory",
+        "interop:opus"
       ],
       "gradient": [
         "#c75cff",
@@ -198,9 +201,9 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "canvas.lumenapp",
-      "sha256": "2835aadb332df1b502d1f1c472380f4075b37bd2a5a9f8f38ac8a9de58758dc8",
-      "size": 255882,
-      "files": 29
+      "sha256": "2e98201cf5a111e75fcd015437ce63bc8b5702d052d6b3446c1dc2b20b2ab660",
+      "size": 271225,
+      "files": 31
     },
     {
       "id": "kanban",
@@ -225,8 +228,8 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "kanban.lumenapp",
-      "sha256": "cb1780cdb55ef8ec6383e20cef952692a7bdfbac62e38744acbaabeaaf1179fa",
-      "size": 249037,
+      "sha256": "6dd4698f060282787345af2b9d4ed2664cc8e697ef4457c414c6c800ddcba5e0",
+      "size": 251652,
       "files": 32
     },
     {
@@ -252,8 +255,8 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "calendar.lumenapp",
-      "sha256": "723e3757254b44399a3b76f6e31dfc2b9fbe33256dc19afad87eda759276148f",
-      "size": 253002,
+      "sha256": "b7c7a330260b8f5e51e15fa054580b68313d28799ad9ee5d9e219ad724624595",
+      "size": 255847,
       "files": 35
     },
     {
@@ -261,7 +264,7 @@
       "name": "Email",
       "version": "0.2.0",
       "description": "Votre courrier en IMAP/SMTP, affiché sans risque, résumé et préparé par l'IA.",
-      "category": "organize",
+      "category": "comm",
       "entry": "mail/mail.html",
       "capabilities": [
         "ai",
@@ -281,16 +284,16 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "mail.lumenapp",
-      "sha256": "4730ffc1bf77b720de6a73d24c797389b6e915b7a78a9c2b57bcd55258579863",
-      "size": 233152,
-      "files": 28
+      "sha256": "52368447612732b1cbb578666e4cc3710c3a7965bbcca25a1fadbe827273cfdf",
+      "size": 241143,
+      "files": 29
     },
     {
       "id": "contacts",
       "name": "Contacts",
       "version": "0.2.0",
       "description": "Le carnet d'adresses unique : courrier, Relia et Telegram réunis.",
-      "category": "organize",
+      "category": "people",
       "entry": "contacts/contacts.html",
       "capabilities": [
         "storage",
@@ -307,9 +310,9 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "contacts.lumenapp",
-      "sha256": "078e18673aca016b461972d61c71d465d05f0d2425915643172d3b6a72cafb02",
-      "size": 222185,
-      "files": 26
+      "sha256": "ff100f854ad3477edd784b4019d9386eb5b777542c101890a3fd9f8d6ac99933",
+      "size": 230696,
+      "files": 27
     },
     {
       "id": "morning",
@@ -332,8 +335,8 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "morning.lumenapp",
-      "sha256": "4cca9e27b6f538519a10e89b559c8b0d2791d8cea41f715c664de6744baa79b6",
-      "size": 163776,
+      "sha256": "9a9c8f9339f08c16b735c81e352552f1a5cac4e064b80212425bed972c53d54e",
+      "size": 164262,
       "files": 13
     },
     {
@@ -402,8 +405,8 @@
         }
       ],
       "url": "studies.lumenapp",
-      "sha256": "edfca84d98fb094634c21ad2d69569491f66b3542d42f20e3fa457429a44dc22",
-      "size": 1753233,
+      "sha256": "c8fb5f25699fd5463b87ae9c158abd702f949c8a2f2759c3ded7209752f211e3",
+      "size": 1756097,
       "files": 41
     },
     {
@@ -430,8 +433,8 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "pdf.lumenapp",
-      "sha256": "99bc2df3590512410fb758f81852cc90442b4f8f23950971abdf2ee1224b9a52",
-      "size": 935399,
+      "sha256": "f2405c986d7063e7a1e4548ae5a739668ac8542fb2fccd8f26967a83c7bcfc5d",
+      "size": 938263,
       "files": 33
     },
     {
@@ -456,8 +459,8 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "media.lumenapp",
-      "sha256": "dc33f3efabf7db15ef090095a0070ba55d3c4a614531a158a15ccd8ae5135e54",
-      "size": 190420,
+      "sha256": "ec031041ae41ccb2df8b692261dda8e8b14cf83a023e9de8cc4bb314622dbfa7",
+      "size": 190732,
       "files": 19
     },
     {
@@ -484,8 +487,8 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "photos.lumenapp",
-      "sha256": "699c3f870721c20e3f785345e6acffbad1d80bbbaa116225f5832505a9a8471d",
-      "size": 179811,
+      "sha256": "6007f5cebc3d5ea08381e7a93589b42a7d9aad4270f85e21c35f19338787a93e",
+      "size": 180123,
       "files": 16
     },
     {
@@ -607,8 +610,8 @@
         }
       ],
       "url": "scheduler.lumenapp",
-      "sha256": "4f3d39df2756f500d66e2c0e2f3226509564fb97a5422785c8b3cdc7deef6dc4",
-      "size": 245613,
+      "sha256": "f76d43b96a3e84cfafde4f730e64f727eba9b36c415b8bc016c7bd74482616b1",
+      "size": 248458,
       "files": 32
     },
     {
@@ -616,7 +619,7 @@
       "name": "Bases de données",
       "version": "0.2.0",
       "description": "Bases locales interrogeables en langage naturel.",
-      "category": "explore",
+      "category": "data",
       "entry": "tables/tables.html",
       "capabilities": [
         "ai",
@@ -635,16 +638,16 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "tables.lumenapp",
-      "sha256": "b528992db6d520b4426846d3331572e809a9fd7c2aaeab0958eadd1038cee0d9",
-      "size": 244137,
-      "files": 31
+      "sha256": "4ea545c01cb1a188db832f6118dd73dbaa25a6d35c8f932832bc33f107dee5a7",
+      "size": 250298,
+      "files": 32
     },
     {
       "id": "dataanalysis",
       "name": "Analyse de données",
       "version": "0.2.0",
       "description": "Explorer, croiser, visualiser.",
-      "category": "explore",
+      "category": "data",
       "entry": "data-analysis/analysis.html",
       "capabilities": [
         "ai",
@@ -663,16 +666,16 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "dataanalysis.lumenapp",
-      "sha256": "902857de622da615d061d4361e843c756c79eb968e25e2202d65ce18f18781b2",
-      "size": 633576,
-      "files": 34
+      "sha256": "b9d4fedb1ef4ae977ef8507a35b11a90735f9ef20c38294100ec54ff2225670f",
+      "size": 639279,
+      "files": 35
     },
     {
       "id": "ml",
       "name": "Atelier ML",
       "version": "0.2.0",
       "description": "Entraîner un modèle localement.",
-      "category": "explore",
+      "category": "lab",
       "entry": "ml/ml.html",
       "capabilities": [
         "ai",
@@ -688,11 +691,13 @@
       "width": 1280,
       "height": 820,
       "pro": false,
+      "pack": "ml",
+      "prerequisites": "Environ 1 Go pour Pyodide et les modèles transformers.js téléchargés à la demande.",
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "ml.lumenapp",
-      "sha256": "42a4ef19315d587af586aec1a692e33d203ebee493a58812730457e13b66e73c",
-      "size": 5806288,
+      "sha256": "e22c477dfc74fea0dc84b15a40f4ed4960b7234105f35ff6abe75fb5099ab3e7",
+      "size": 5809800,
       "files": 31
     },
     {
@@ -700,7 +705,7 @@
       "name": "Corpus",
       "version": "0.2.0",
       "description": "Vos documents indexés (RAG).",
-      "category": "explore",
+      "category": "search",
       "entry": "knowledge/knowledge.html",
       "capabilities": [
         "ai",
@@ -719,8 +724,8 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "knowledge.lumenapp",
-      "sha256": "321a9ca7a348c64802cb6760ac2134b962def1808514db48c17a2f30bb58e4f9",
-      "size": 241329,
+      "sha256": "7c9f158c139c27785779cbb47deb84e3ab519c6637709c94345b64c84cb3f8c4",
+      "size": 243943,
       "files": 31
     },
     {
@@ -728,7 +733,7 @@
       "name": "Carte",
       "version": "0.2.0",
       "description": "Carte assistée par IA : extraction OpenStreetMap, jeux de données data.gouv.fr, fonds IGN et export GeoJSON crédité.",
-      "category": "explore",
+      "category": "search",
       "entry": "carte/carte.html",
       "capabilities": [
         "ai",
@@ -770,8 +775,8 @@
         }
       ],
       "url": "carte.lumenapp",
-      "sha256": "2c80d0d181a9e9809e0a8c31b52608a1ace54610b20d76212724d1724881e2c7",
-      "size": 541539,
+      "sha256": "60d735e8032b04bba5dace9ee7afa4b4ba7f407c240db45b00a61869b1ae32ec",
+      "size": 702477,
       "files": 35
     },
     {
@@ -779,7 +784,7 @@
       "name": "Enquête",
       "version": "0.2.0",
       "description": "Un agent fouille et rend un rapport sourcé.",
-      "category": "explore",
+      "category": "search",
       "entry": "research/research.html",
       "capabilities": [
         "ai",
@@ -799,9 +804,9 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "research.lumenapp",
-      "sha256": "07e939081a326f88991e89643c181d0a68cbc2bcd2add90adb2c97a91d14ef14",
-      "size": 216663,
-      "files": 24
+      "sha256": "f25d5a6f49da8c60759db9a4100cb4e56b37c793b0582c807903a494cfdac4f1",
+      "size": 226850,
+      "files": 25
     },
     {
       "id": "podcast",
@@ -826,8 +831,8 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "podcast.lumenapp",
-      "sha256": "7cddf348ec193029fa67734e386a85d2a114b746b5638172778bcd678bf73977",
-      "size": 239812,
+      "sha256": "816f32342eeb5ef591a6933157fcb55516a9de80e02fc39c1a6b1be8326d9b7e",
+      "size": 242657,
       "files": 32
     },
     {
@@ -853,7 +858,7 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "voicelab.lumenapp",
-      "sha256": "449ce05aabd1603c3a44114345fce3d561443ba70d08c4d3fa638dfe5e777960",
+      "sha256": "65f58c82fe956b3a416c941f83b7679a3ae013fd2c6c08e9b15fbe04664c8989",
       "size": 161290,
       "files": 12
     },
@@ -876,11 +881,13 @@
       "width": 1160,
       "height": 790,
       "pro": false,
+      "pack": "loisirs",
+      "prerequisites": "Aucun.",
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "games.lumenapp",
-      "sha256": "752949a61f585664cbeb0723436e8e23a765bda5e0a371070baf9fdf8dd4cf63",
-      "size": 216007,
+      "sha256": "0b5dc76ed2840c2e75870f56d6503972d1c6d0065e4abba43f05cea8c6717a62",
+      "size": 218584,
       "files": 22
     },
     {
@@ -903,11 +910,13 @@
       "width": 1160,
       "height": 790,
       "pro": false,
+      "pack": "loisirs",
+      "prerequisites": "Un modèle de langage local ou une API ; génération d’images facultative.",
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "adventure.lumenapp",
-      "sha256": "f2cc2771b5e447c800348dc830ddd44c02631128d605e3241e48a21973b022d2",
-      "size": 224560,
+      "sha256": "247ae1848d28657aeac63e642269adb3e2d4c56dfa96a2b5bb9f6bb839be4bd0",
+      "size": 227192,
       "files": 24
     },
     {
@@ -930,11 +939,13 @@
       "width": 1000,
       "height": 760,
       "pro": false,
+      "pack": "loisirs",
+      "prerequisites": "Aucun.",
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "aipet.lumenapp",
-      "sha256": "f91d8a0168bd47b7760ea9c7b9f2fe556086953f6fb8633871e8a0331c0ee4e2",
-      "size": 692582,
+      "sha256": "4f823b630c7988fcc1fe86a58f5f0e7bffa4b8e6898d01729da8f179bce2461a",
+      "size": 695159,
       "files": 32
     },
     {
@@ -957,11 +968,13 @@
       "width": 1240,
       "height": 800,
       "pro": false,
+      "pack": "dev",
+      "prerequisites": "Aucun.",
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "editor.lumenapp",
-      "sha256": "5e8d9021ae508ff5a5cf4fc6aab3f989f5216e86484fb31d31f4760b7764bdb1",
-      "size": 230087,
+      "sha256": "1a9194790e106c734988d8596695cf479d4d62cc0407d6e9a0a60d7189b9103b",
+      "size": 232662,
       "files": 25
     },
     {
@@ -985,11 +998,13 @@
       "width": 1320,
       "height": 860,
       "pro": false,
+      "pack": "robotique",
+      "prerequisites": "Un Raspberry Pi joignable en SSH (pigpiod) et son câblage.",
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "robotstudio.lumenapp",
-      "sha256": "add8af07335333d5abd42d459f3bf85a052fdab7377e2244dc030dfeec58697f",
-      "size": 524042,
+      "sha256": "125f21be529e6c862bb3b89b4637633edf3a11bb49f22e4b4a238dd240f4beba",
+      "size": 526923,
       "files": 33
     },
     {
@@ -1013,6 +1028,8 @@
       "width": 1280,
       "height": 820,
       "pro": false,
+      "pack": "dev",
+      "prerequisites": "Aucun : interpréteur Pyodide embarqué (≈ 30 Mo).",
       "trust": "first-party",
       "minLumen": "0.2.0",
       "intents": [
@@ -1036,8 +1053,8 @@
         }
       ],
       "url": "python.lumenapp",
-      "sha256": "90a7416d528a6ee92697460119f67f597edd77e66287c9a95b8227c9fd010438",
-      "size": 5765954,
+      "sha256": "bff39fae91b14b7af7e676058bebd9842b0dac651302c181dbfa69b3ca908138",
+      "size": 5768556,
       "files": 27
     },
     {
@@ -1063,7 +1080,7 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "imagestudio.lumenapp",
-      "sha256": "1c49519fa7755f4ce4f0394f2a53a7cd74f53b98a2c4dceccf9d5fb73d27d0d0",
+      "sha256": "9a7c44a4a8d0d13f62670f010e6486e45d16afa912dd4878380eba5a35adeed6",
       "size": 185901,
       "files": 15
     },
@@ -1087,11 +1104,13 @@
       "width": 1180,
       "height": 800,
       "pro": false,
+      "pack": "audio-creation",
+      "prerequisites": "Aucun : synthèse Web Audio, sans modèle.",
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "musicstudio.lumenapp",
-      "sha256": "d7ce49044c839c25a92ad514d48413aeab5131d1aac162d55ee164494d0a67ca",
-      "size": 235768,
+      "sha256": "7669e77b4a7a5eacefa131f4e25efe1e6352f21d723e859360e5f2375a993eb3",
+      "size": 238392,
       "files": 29
     },
     {
@@ -1099,7 +1118,7 @@
       "name": "Navigateur",
       "version": "0.2.0",
       "description": "Naviguer sur le web, avec résumé, traduction et analyse par l'IA.",
-      "category": "explore",
+      "category": "search",
       "entry": "browser/browser.html",
       "capabilities": [
         "ai",
@@ -1118,8 +1137,8 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "browser.lumenapp",
-      "sha256": "f52ff2a69b58ac2fbb7cc866801c93603ae0ef8fc52226bbb1d3e249caf11fc5",
-      "size": 224408,
+      "sha256": "17ec693ac159567edca304cfd1dec60d652e6223f0ed47a073448720d6bf52d2",
+      "size": 227772,
       "files": 23
     },
     {
@@ -1145,9 +1164,9 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "budget.lumenapp",
-      "sha256": "36f6915c22e42cfac91062ab482462b6adafdbadec16cdd4ba454a7f240658e0",
-      "size": 236140,
-      "files": 29
+      "sha256": "ca66c1dc9c9a504090374fbabc0b25e984e743f2f79672e82f8e4be6a62aaf70",
+      "size": 239451,
+      "files": 30
     },
     {
       "id": "domotique",
@@ -1169,11 +1188,13 @@
       "width": 1180,
       "height": 780,
       "pro": false,
+      "pack": "maison",
+      "prerequisites": "Des objets ESP32/Pico sous MicroPython sur le réseau local.",
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "domotique.lumenapp",
-      "sha256": "785bf6d6dc4f04a635139560f1fc714fa007a34377296048522331f7f328148b",
-      "size": 248420,
+      "sha256": "6cb313e6c8a2e32ac97f30d006652da39d3b16c7a56036d84b75397145ff2d21",
+      "size": 251047,
       "files": 31
     },
     {
@@ -1181,7 +1202,7 @@
       "name": "Relia",
       "version": "0.2.0",
       "description": "CRM assisté par l'IA : projets, tâches, clients, devis et factures Factur-X.",
-      "category": "pro",
+      "category": "people",
       "entry": "crm/crm.html",
       "capabilities": [
         "ai",
@@ -1197,26 +1218,27 @@
       "icon": "file-text",
       "width": 1240,
       "height": 820,
-      "pro": true,
+      "pro": false,
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "relia.lumenapp",
-      "sha256": "6b84e998d143bb74fcd73e40e778892fb0b66c0d1d81e86d1f09581962e0294e",
-      "size": 281836,
-      "files": 36
+      "sha256": "53d19a615824df6c85c18791001eccc1cc3a532daaec45d7ac441e29c684dc4f",
+      "size": 286054,
+      "files": 37
     },
     {
       "id": "meet",
       "name": "Réunion",
       "version": "0.2.0",
       "description": "Visio et chat d'équipe sur votre réseau, avec compte rendu par l'IA.",
-      "category": "pro",
+      "category": "comm",
       "entry": "meet/meet.html",
       "capabilities": [
         "ai",
         "storage",
         "network",
-        "notifications"
+        "notifications",
+        "interop:kanban"
       ],
       "gradient": [
         "#0a84ff",
@@ -1225,20 +1247,20 @@
       "icon": "users",
       "width": 1320,
       "height": 860,
-      "pro": true,
+      "pro": false,
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "meet.lumenapp",
-      "sha256": "3dc5f105ae47004592bc82ec87890f619d41f465ad44d3a5b7add439a8e4d02e",
-      "size": 262429,
-      "files": 37
+      "sha256": "bd3923789f54a288fd4eac1aa65d9c225f82316355a32bce4683f2d1e1440e82",
+      "size": 273061,
+      "files": 38
     },
     {
       "id": "dbstudio",
       "name": "DB Studio",
       "version": "0.2.0",
       "description": "Modéliser une base : tables, champs typés, relations et formulaires.",
-      "category": "pro",
+      "category": "data",
       "entry": "dbstudio/dbstudio.html",
       "capabilities": [
         "ai",
@@ -1252,12 +1274,12 @@
       "icon": "database",
       "width": 1300,
       "height": 850,
-      "pro": true,
+      "pro": false,
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "dbstudio.lumenapp",
-      "sha256": "685ec32445bb294a6d618d86c051b1ec66f60a0c3d8847f34f0a651f411f12ef",
-      "size": 272458,
+      "sha256": "015570a6635fe67f8bda102ee155179b7c0d9d319bda58f9bfc5d17cb09d1687",
+      "size": 275893,
       "files": 38
     },
     {
@@ -1265,7 +1287,7 @@
       "name": "Flux de données",
       "version": "0.2.0",
       "description": "ETL visuel : sources, transformations et destinations reliées sur un canevas.",
-      "category": "pro",
+      "category": "data",
       "entry": "etl/etl.html",
       "capabilities": [
         "ai",
@@ -1280,12 +1302,12 @@
       "icon": "trending-up-down",
       "width": 1320,
       "height": 860,
-      "pro": true,
+      "pro": false,
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "etl.lumenapp",
-      "sha256": "51e4920d6d1ccc29f96c372c67b951e5700736d8f26e2579feb7bb6fa7fecdff",
-      "size": 289325,
+      "sha256": "f4d7e4ad58cd7cc2cfe8afb7a4e7b44e5d49ac4149ea470dbeff0467f7c70c8f",
+      "size": 291900,
       "files": 35
     },
     {
@@ -1293,7 +1315,7 @@
       "name": "Reporting",
       "version": "0.2.0",
       "description": "Rapports d'entreprise : indicateurs, graphiques et export, construits avec l'IA.",
-      "category": "pro",
+      "category": "data",
       "entry": "reporting/reporting.html",
       "capabilities": [
         "ai",
@@ -1308,20 +1330,20 @@
       "icon": "layout-dashboard",
       "width": 1320,
       "height": 860,
-      "pro": true,
+      "pro": false,
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "reporting.lumenapp",
-      "sha256": "2649f18619f816fcf81fcc2ba3a2813fa74f72f3e849b2b15f20ff0394cb02bb",
-      "size": 641141,
-      "files": 39
+      "sha256": "aa6505cbb9b4a6d3ba5232e06b5bd05dba2999e03ac45669489b20d3baa0e6cd",
+      "size": 645730,
+      "files": 40
     },
     {
       "id": "datasources",
       "name": "Sources de données",
       "version": "0.2.0",
       "description": "Centre de connexions : bases, partages et API mis à disposition des apps Pro.",
-      "category": "pro",
+      "category": "data",
       "entry": "datasources/datasources.html",
       "capabilities": [
         "storage",
@@ -1335,12 +1357,12 @@
       "icon": "plug",
       "width": 1300,
       "height": 850,
-      "pro": true,
+      "pro": false,
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "datasources.lumenapp",
-      "sha256": "5393a22c3ef5d893c4d00a0fd8fd3ffec286f70f40b9d78f5df52ece9913e592",
-      "size": 182440,
+      "sha256": "851df2ec1be87d3ebf5a0235de5f810f09e997b7d9ffade14a97a2523ee08b5f",
+      "size": 182830,
       "files": 18
     },
     {
@@ -1348,7 +1370,7 @@
       "name": "Annuaire",
       "version": "0.2.0",
       "description": "Les personnes du réseau : présence, messages et invitations en réunion.",
-      "category": "pro",
+      "category": "people",
       "entry": "directory/directory.html",
       "capabilities": [
         "storage",
@@ -1362,12 +1384,12 @@
       "icon": "users",
       "width": 980,
       "height": 760,
-      "pro": true,
+      "pro": false,
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "directory.lumenapp",
-      "sha256": "60c5343e535c9ba829425355fc3dbba358d0314afb2e07870ef86e14c28552f8",
-      "size": 179042,
+      "sha256": "c4e0085544b17b5a79ee6d5a3affd82c0221472c164daf738a2a60659e554ff5",
+      "size": 179436,
       "files": 19
     },
     {
@@ -1375,7 +1397,7 @@
       "name": "Messagerie d'équipe",
       "version": "0.2.0",
       "description": "Conversations chiffrées de bout en bout avec votre équipe.",
-      "category": "pro",
+      "category": "comm",
       "entry": "messages/messages.html",
       "capabilities": [
         "storage",
@@ -1389,14 +1411,14 @@
       "icon": "messages-square",
       "width": 1180,
       "height": 820,
-      "pro": true,
+      "pro": false,
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "messages.lumenapp",
-      "sha256": "e50fc0b0c551dc78e0bd815d4b8d1927f09a3ce10bee3885ce99de95e4e205e5",
-      "size": 179935,
+      "sha256": "444b061b3c937f2dc918ddd4ce998e4baad4e8e85b344950f0aa99498039441e",
+      "size": 180327,
       "files": 17
     }
   ],
-  "signature": "IFo-oz0NExzBIJPKf9vgImiUmW5TbvQIn9WMP7kaVQi9XLR7Zf3oxbGEzBZveQf7rl6JfHthSRM1a7jCUnbtBg"
+  "signature": "3Ph34vysx_Ya0CFgl5JidB-_hqqP3yIN7ud9rqp7g-jOWXqw-JgWr2k_qQQH6JbcPItaLjPFwxt0vdDVzBRCBA"
 }
