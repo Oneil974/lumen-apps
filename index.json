@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generated": "2026-10-08T02:47:27.211Z",
+  "generated": "2026-10-10T03:07:15.197Z",
   "apps": [
     {
       "id": "notes",
       "name": "Notes",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "description": "Écrire, réécrire avec l'IA.",
       "category": "create",
       "entry": "notes/notes.html",
@@ -116,14 +116,14 @@
         }
       },
       "url": "notes.lumenapp",
-      "sha256": "e44ec266af014d2278dba28d33dcda7b0782749f184fd264447af1516766681e",
-      "size": 1449581,
-      "files": 112
+      "sha256": "5852d782cfa9869cf787bc3eb65fc6cb464a4b66cd206cde45b170ff2a6c75dd",
+      "size": 7365939,
+      "files": 150
     },
     {
       "id": "mindmap",
       "name": "Carte mentale",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "description": "Ramifier une idée en carte mentale.",
       "category": "create",
       "entry": "mindmap/mindmap.html",
@@ -144,14 +144,14 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "mindmap.lumenapp",
-      "sha256": "9413bb0a9541e4fdeb02da5183d534514436bdb4fadcc0c8f0dec304e172614f",
-      "size": 285227,
-      "files": 38
+      "sha256": "c12515270d5bc187285df2b0cd1713acc34a179f8e1a73ba8e731287a883cbc3",
+      "size": 6207581,
+      "files": 77
     },
     {
       "id": "moodboard",
       "name": "Planche",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "description": "Assembler une direction visuelle.",
       "category": "create",
       "entry": "moodboard/moodboard.html",
@@ -172,14 +172,14 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "moodboard.lumenapp",
-      "sha256": "c53274a7b90fec9be15846cd6b03fd671314881a8f9b0b8acdabc8ae13a80cbe",
-      "size": 308998,
-      "files": 41
+      "sha256": "0090d624c5245c878105f8aafd1d279f9fef4f24151497d2797d8f7ee197ef66",
+      "size": 6230690,
+      "files": 80
     },
     {
       "id": "canvas",
       "name": "Canevas créatif",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "description": "Faire naître des idées par filiation.",
       "category": "create",
       "entry": "canvas/canvas.html",
@@ -201,14 +201,41 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "canvas.lumenapp",
-      "sha256": "a486c0243b3bdbb6667dc2df059e1332cb4c5c4a39604238cc4a2dc7c3ea7017",
-      "size": 304028,
-      "files": 37
+      "sha256": "a0a1945b7984c40ea67b4550c6351743a920873402755c2c0deb095041a1da88",
+      "size": 6237112,
+      "files": 82
+    },
+    {
+      "id": "nodal",
+      "name": "Studio Nodal",
+      "version": "0.3.0",
+      "description": "Workflows génératifs en nœuds : texte, image, vision, audio.",
+      "category": "create",
+      "entry": "nodal/nodal.html",
+      "capabilities": [
+        "ai",
+        "storage",
+        "files"
+      ],
+      "gradient": [
+        "#6d5dfc",
+        "#c75cff"
+      ],
+      "icon": "workflow",
+      "width": 1360,
+      "height": 860,
+      "pro": false,
+      "trust": "first-party",
+      "minLumen": "0.2.0",
+      "url": "nodal.lumenapp",
+      "sha256": "337acae321e65d9423d23b59e3101b0dc8b14df2f677728a7633a9dbcef299b3",
+      "size": 6241323,
+      "files": 86
     },
     {
       "id": "kanban",
       "name": "Tableau",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "description": "Colonnes, cartes, avancement.",
       "category": "organize",
       "entry": "kanban/board.html",
@@ -228,14 +255,14 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "kanban.lumenapp",
-      "sha256": "38712d19ae5268c5d73f76fa570716449905c39f9376b0910c42e0f5361abfd7",
-      "size": 285196,
-      "files": 39
+      "sha256": "17fb2295af3207f818159cf6ca558f90e516d5bf3aa7afa48f874eded91d77d0",
+      "size": 6207364,
+      "files": 78
     },
     {
       "id": "calendar",
       "name": "Agenda",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "description": "Échéances et rappels datés.",
       "category": "organize",
       "entry": "calendar/calendar.html",
@@ -255,14 +282,14 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "calendar.lumenapp",
-      "sha256": "35a32b09c1984ae83ae768c5c45cb1a37226347d2509df9b874d0984b4d74ced",
-      "size": 284737,
-      "files": 40
+      "sha256": "8f35c09ccfcaf7764aa27cb948ee745622489597c171c8f0b75b5859bac936eb",
+      "size": 6218203,
+      "files": 82
     },
     {
       "id": "mail",
       "name": "Email",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "description": "Votre courrier en IMAP/SMTP, affiché sans risque, résumé et préparé par l'IA.",
       "category": "comm",
       "entry": "mail/mail.html",
@@ -284,14 +311,14 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "mail.lumenapp",
-      "sha256": "649a3683cd3bdcda1b9ea31c1e25310c28210794ccf3b34bcdb563ad5e57db1f",
-      "size": 275545,
-      "files": 36
+      "sha256": "796d8a1f0bfcafb69818df99f07cb5a6ab933b59c125dc670ca0d247836069bb",
+      "size": 6206719,
+      "files": 79
     },
     {
       "id": "contacts",
       "name": "Contacts",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "description": "Le carnet d'adresses unique : courrier, Relia et Telegram réunis.",
       "category": "people",
       "entry": "contacts/contacts.html",
@@ -310,14 +337,14 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "contacts.lumenapp",
-      "sha256": "1aab39e27aeba8f3cb09194bc66039744f5f5a5c3ff31fb0677bf1a24634216e",
-      "size": 263111,
-      "files": 33
+      "sha256": "6ebc1ebcfe41d2f7901ffe2998bc558b45eb9ff01aeab45518f4ca950453a7ae",
+      "size": 6196573,
+      "files": 77
     },
     {
       "id": "morning",
       "name": "Matin",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "description": "L'écran de la journée : agenda, messages, tâches, nuit des agents.",
       "category": "organize",
       "entry": "morning/morning.html",
@@ -335,14 +362,14 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "morning.lumenapp",
-      "sha256": "46f31092b753dbdebe32894fc50916a1dea4d4575d3b0858a3f643caa76f17d4",
-      "size": 168450,
+      "sha256": "f8bf908798c5585e6887dcc6ec783993113371ecb015d71bcc6f60196811a4e1",
+      "size": 190139,
       "files": 13
     },
     {
       "id": "studies",
       "name": "Études",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "description": "Fiches à répétition espacée, quiz, podcasts de révision, bibliothèque de cours libres, planning d'examens et correction expliquée, générés à partir de vos cours — hors ligne avec un modèle local.",
       "category": "organize",
       "entry": "studies/studies.html",
@@ -405,14 +432,14 @@
         }
       ],
       "url": "studies.lumenapp",
-      "sha256": "f752397f1fce724b1ef25bd34214673fd63a50125c500eabe9a9a13d14176820",
-      "size": 1789351,
-      "files": 109
+      "sha256": "1a53c115ae577ae61e03adf70fd168d2ddef762a5b8b4f6c2157336a3ab84cc8",
+      "size": 7732367,
+      "files": 155
     },
     {
       "id": "pdf",
       "name": "PDF",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "description": "Lire, surligner, annoter et signer vos PDF ; copie annotée lisible partout.",
       "category": "create",
       "entry": "pdf/pdf.html",
@@ -433,18 +460,19 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "pdf.lumenapp",
-      "sha256": "f989b6f2c43ddbe4243aaf9c77e09f879b227c20204bfac57f66e0a383a229d5",
-      "size": 971064,
-      "files": 40
+      "sha256": "b28264489c0620143813eaf9997d4d63a3435b612d0a8339b0d4b86074745a14",
+      "size": 6904843,
+      "files": 84
     },
     {
       "id": "media",
       "name": "Médias",
-      "version": "0.2.0",
-      "description": "Lecteur vidéo et musique, et montage vidéo simple en paysage, portrait ou carré.",
+      "version": "0.3.0",
+      "description": "Lecteur vidéo et musique, et studio de montage : pistes multiples, transitions, filtres, textes animés, sous-titres automatiques, voix off et assistant IA.",
       "category": "create",
       "entry": "media/media.html",
       "capabilities": [
+        "ai",
         "storage",
         "files"
       ],
@@ -453,20 +481,110 @@
         "#bf5af2"
       ],
       "icon": "play",
-      "width": 1280,
-      "height": 820,
+      "width": 1360,
+      "height": 860,
       "pro": false,
       "trust": "first-party",
       "minLumen": "0.2.0",
+      "intents": [
+        {
+          "id": "media_create_montage",
+          "title": "Créer un montage vidéo",
+          "description": "Monte automatiquement une vidéo dans Médias à partir de vidéos/photos des sandboxes (transitions, filtre, titre, musique calée sur le rythme, sous-titres en option).",
+          "parameters": {
+            "files": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Noms des fichiers vidéo/photo à utiliser (facultatif)"
+            },
+            "query": {
+              "type": "string",
+              "description": "Sinon, mots-clés pour trouver les fichiers (ex. « vacances »)"
+            },
+            "style": {
+              "type": "string",
+              "enum": [
+                "dynamic",
+                "vlog",
+                "cinematic",
+                "calm"
+              ],
+              "description": "Style"
+            },
+            "aspect": {
+              "type": "string",
+              "enum": [
+                "16:9",
+                "9:16",
+                "1:1",
+                "4:5"
+              ],
+              "description": "Format (9:16 = Reels/TikTok)"
+            },
+            "duration": {
+              "type": "number",
+              "description": "Durée visée en secondes"
+            },
+            "title": {
+              "type": "string",
+              "description": "Titre affiché au début"
+            },
+            "music": {
+              "type": "string",
+              "description": "Musique (nom de fichier)"
+            },
+            "captions": {
+              "type": "boolean",
+              "description": "Ajouter des sous-titres automatiques"
+            }
+          },
+          "required": []
+        },
+        {
+          "id": "media_edit",
+          "title": "Retoucher le montage",
+          "description": "Applique une consigne de montage en langage naturel au projet ouvert dans Médias (couper, textes, transitions, filtres, musique, sous-titres…).",
+          "parameters": {
+            "instruction": {
+              "type": "string",
+              "description": "Consigne, ex. « ajoute un titre et passe en 9:16 »"
+            }
+          },
+          "required": [
+            "instruction"
+          ]
+        },
+        {
+          "id": "media_export",
+          "title": "Exporter la vidéo",
+          "description": "Exporte le montage ouvert dans Médias en MP4 dans une sandbox.",
+          "parameters": {
+            "quality": {
+              "type": "integer",
+              "description": "Résolution (720, 1080…)"
+            }
+          },
+          "required": []
+        },
+        {
+          "id": "media_project",
+          "title": "Résumé du montage",
+          "description": "Décrit le montage ouvert dans Médias (clips, textes, pistes audio, durée).",
+          "parameters": {},
+          "required": []
+        }
+      ],
       "url": "media.lumenapp",
-      "sha256": "797efcd5c017a9c65e5501a60cacf0c5299edb08d0f40102858fb190ad14ffe0",
-      "size": 195347,
-      "files": 19
+      "sha256": "22f92d8fcb0ccc4161e18f7067f1f9c6fbaf50149d3022a2838608782ed80f9c",
+      "size": 6265321,
+      "files": 88
     },
     {
       "id": "photos",
       "name": "Photos",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "description": "La bibliothèque de toutes les images de vos sandboxes.",
       "category": "create",
       "entry": "photos/photos.html",
@@ -487,14 +605,14 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "photos.lumenapp",
-      "sha256": "80af5ce39df5177de2fe3643ca4cd74f02d00a80aca9bd216d69db6de5b5145b",
-      "size": 184311,
+      "sha256": "52a683e7dafbb6d452f1722f8c7b9140780530dcb58eda8cacac810ef8c99dae",
+      "size": 204205,
       "files": 16
     },
     {
       "id": "scheduler",
       "name": "Tâches planifiées",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "description": "Tout ce qui s'exécute à heure fixe : demandes à l'IA, workflows, agents, rappels.",
       "category": "organize",
       "entry": "scheduler/scheduler.html",
@@ -610,14 +728,14 @@
         }
       ],
       "url": "scheduler.lumenapp",
-      "sha256": "fe38a3bb20fc9a560dd2101972b4ef9efa819cbd54cb636942fff89205da64a5",
-      "size": 277348,
-      "files": 37
+      "sha256": "77f7c758e70928c2a578307be032bcbd6b7e3fa14f7f39142a7b05708d89acc7",
+      "size": 6210814,
+      "files": 79
     },
     {
       "id": "tables",
       "name": "Bases de données",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "description": "Bases locales interrogeables en langage naturel.",
       "category": "data",
       "entry": "tables/tables.html",
@@ -638,15 +756,15 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "tables.lumenapp",
-      "sha256": "86cefce7e1eb1e8cdd962e5b922dacccf014a5276e172ace62b8335e007e0c66",
-      "size": 283880,
-      "files": 39
+      "sha256": "708e89aadd7180c284c0a86b3df1963d916a8e757a21dcbd4dec4a5668738306",
+      "size": 6205537,
+      "files": 78
     },
     {
       "id": "dataanalysis",
       "name": "Analyse de données",
-      "version": "0.2.0",
-      "description": "Explorer, croiser, visualiser.",
+      "version": "0.3.0",
+      "description": "Rapports et tableaux de bord façon Power BI : visuels, segments, filtres croisés, période comparée, export PDF et envoi automatique par email.",
       "category": "data",
       "entry": "data-analysis/analysis.html",
       "capabilities": [
@@ -660,20 +778,88 @@
         "#168f82"
       ],
       "icon": "dataanalysis",
-      "width": 1280,
-      "height": 820,
+      "width": 1360,
+      "height": 860,
       "pro": false,
       "trust": "first-party",
       "minLumen": "0.2.0",
+      "intents": [
+        {
+          "id": "analyze_data",
+          "title": "Analyser des données",
+          "description": "Répond à une question chiffrée sur les données du rapport ouvert dans Analyse de données (calculs exacts sur les tables du modèle).",
+          "parameters": {
+            "question": {
+              "type": "string",
+              "description": "Question, ex. « quelle région a le plus vendu en mars ? »"
+            }
+          },
+          "required": [
+            "question"
+          ]
+        },
+        {
+          "id": "create_dashboard",
+          "title": "Créer un tableau de bord",
+          "description": "Construit dans Analyse de données une page de visuels (indicateurs, graphiques, segments) à partir des tables du rapport ouvert.",
+          "parameters": {
+            "goal": {
+              "type": "string",
+              "description": "Ce que le tableau de bord doit montrer"
+            }
+          },
+          "required": []
+        },
+        {
+          "id": "send_report",
+          "title": "Envoyer un rapport par email",
+          "description": "Exporte le rapport ouvert dans Analyse de données (PDF ou HTML) et l'envoie par email en pièce jointe.",
+          "parameters": {
+            "to": {
+              "type": "string",
+              "description": "Destinataires, séparés par des virgules"
+            },
+            "subject": {
+              "type": "string",
+              "description": "Objet"
+            },
+            "format": {
+              "type": "string",
+              "enum": [
+                "pdf",
+                "html"
+              ],
+              "description": "Format de la pièce jointe"
+            }
+          },
+          "required": [
+            "to"
+          ]
+        },
+        {
+          "id": "report_send",
+          "title": "Exécuter un envoi programmé",
+          "description": "Usage interne : envoie l'abonnement indiqué.",
+          "parameters": {
+            "id": {
+              "type": "string",
+              "description": "Identifiant de l'abonnement"
+            }
+          },
+          "required": [
+            "id"
+          ]
+        }
+      ],
       "url": "dataanalysis.lumenapp",
-      "sha256": "94804171ffa49a3b6219d27fe71d40ecb81e972bfdde0460f96ec31b15367b03",
-      "size": 673856,
-      "files": 43
+      "sha256": "c5de513c0ead6ffadd354b597e355a5eb1d84a11d04d287ae97d229c7f4872e0",
+      "size": 6653071,
+      "files": 92
     },
     {
       "id": "ml",
       "name": "Atelier ML",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "description": "Entraîner un modèle localement.",
       "category": "lab",
       "entry": "ml/ml.html",
@@ -696,14 +882,14 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "ml.lumenapp",
-      "sha256": "4470def95dd51d6ff782759b0fd3835723ff3e1aa446ccf54a57bb4002142011",
-      "size": 5843145,
-      "files": 39
+      "sha256": "dd0808c849ea780000d55fb82ad96beca5a50a5ed4b8b4b1ca9707800df7ac4b",
+      "size": 6242951,
+      "files": 82
     },
     {
       "id": "knowledge",
       "name": "Corpus",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "description": "Vos documents indexés (RAG).",
       "category": "search",
       "entry": "knowledge/knowledge.html",
@@ -724,14 +910,14 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "knowledge.lumenapp",
-      "sha256": "adcda34a347e613be26e122f4794c9cfd85553880a9fb8b7fe52e5fffcfced4b",
-      "size": 273320,
-      "files": 36
+      "sha256": "0906eedd099c0c4fe0211914da9b562364b6dfef83a32ed0df497c8220f5e142",
+      "size": 6200192,
+      "files": 77
     },
     {
       "id": "carte",
       "name": "Carte",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "description": "Carte assistée par IA : extraction OpenStreetMap, jeux de données data.gouv.fr, fonds IGN et export GeoJSON crédité.",
       "category": "search",
       "entry": "carte/carte.html",
@@ -775,14 +961,14 @@
         }
       ],
       "url": "carte.lumenapp",
-      "sha256": "4ad90627c75f18e20638a1af9be3aabfad0fa753c5d47a50c1aa0de3597ccefc",
-      "size": 731367,
-      "files": 40
+      "sha256": "0bb906e394d0e79861edb7c8b675f88e37cd446abf9489396079935c1c1ca97a",
+      "size": 6664833,
+      "files": 82
     },
     {
       "id": "research",
       "name": "Enquête",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "description": "Un agent fouille et rend un rapport sourcé.",
       "category": "search",
       "entry": "research/research.html",
@@ -804,14 +990,14 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "research.lumenapp",
-      "sha256": "460ce997860430d68330a62b21b5a5a7029acda12c39d1c34cc91b68640ba6d0",
-      "size": 260161,
-      "files": 32
+      "sha256": "5b13cd5d2a9fbf36f634d5ea6485ddfb12bc3a8176483815684cccf815e32933",
+      "size": 6192363,
+      "files": 75
     },
     {
       "id": "podcast",
       "name": "Podcast",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "description": "Vos docs en discussion à deux voix.",
       "category": "audio",
       "entry": "podcast/podcast.html",
@@ -831,14 +1017,14 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "podcast.lumenapp",
-      "sha256": "abc7b4c1f666a1456b7452dddd643bb9b32be5c6b619db95c91872fb53939527",
-      "size": 276328,
-      "files": 39
+      "sha256": "7a3f3d289070411a64b850e79bcb119769573f397bea35817c3be64a4f6e320e",
+      "size": 6204516,
+      "files": 79
     },
     {
       "id": "voicelab",
       "name": "Voix",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "description": "Essayer et gérer les voix locales.",
       "category": "audio",
       "entry": "voicelab/voicelab.html",
@@ -858,14 +1044,14 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "voicelab.lumenapp",
-      "sha256": "09f8c2db5b53377b36bc251ca935330fd823439f2d56a00aa3301a797d98ebee",
-      "size": 165478,
+      "sha256": "5796242c5af50e1c218e04accbff26343e3482ec884dff17e8ed948eb3caf596",
+      "size": 185372,
       "files": 12
     },
     {
       "id": "games",
       "name": "Jeux",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "description": "Mini-jeux.",
       "category": "play",
       "entry": "games/games.html",
@@ -886,14 +1072,14 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "games.lumenapp",
-      "sha256": "aeb8c55b927b67c6ef092bd58ec815c7be587aa7e3c2f8978ae06a169fc46a9c",
-      "size": 264548,
-      "files": 30
+      "sha256": "957ae7cfed074f0cca66609d5201754380385db815859605ad77fa1e6f07ae2b",
+      "size": 6191851,
+      "files": 73
     },
     {
       "id": "adventure",
       "name": "Aventure",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "description": "Jeu de rôle textuel illustré.",
       "category": "play",
       "entry": "adventure/adventure.html",
@@ -915,14 +1101,14 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "adventure.lumenapp",
-      "sha256": "2c05f0ad16da11c6530e65859b48fa46eb5178fc8a0d8c6ab0572eb85b806403",
-      "size": 259560,
-      "files": 30
+      "sha256": "45b2c2994821a75af328f1163da27d5d8ef3b3a76c8475a08efa559921191f34",
+      "size": 6199655,
+      "files": 75
     },
     {
       "id": "aipet",
       "name": "Luciole",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "description": "Une petite lumière qui vit, joue et se souvient de vous.",
       "category": "play",
       "entry": "aipet/aipet.html",
@@ -944,14 +1130,14 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "aipet.lumenapp",
-      "sha256": "d31a1475116d8c685d425416e238f31abb077abcbf23e2cac6731cf3629244d9",
-      "size": 751332,
-      "files": 44
+      "sha256": "2a7e73fc03176fd63ead103a243513290f2dceebc7e94311dc4768cfe6604ea0",
+      "size": 6680607,
+      "files": 86
     },
     {
       "id": "editor",
       "name": "Éditeur de code",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "description": "Éditer le code des apps HTML.",
       "category": "lab",
       "entry": "editor/editor.html",
@@ -973,14 +1159,14 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "editor.lumenapp",
-      "sha256": "2a6307a05319d326ae8efeee594115df6292c22d2590bc1b2be31068345b7e78",
-      "size": 289430,
-      "files": 34
+      "sha256": "56c8b92a2a83d26be0cd37964a34309efe7adee8e9e2b1fd5df51ed77c609910",
+      "size": 6236209,
+      "files": 80
     },
     {
       "id": "robotstudio",
       "name": "Robot Studio",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "description": "Programmer un Raspberry Pi par blocs : capteurs, moteurs, LED, réseau et IA, Python généré puis déployé et lancé sur le Pi en SSH.",
       "category": "lab",
       "entry": "robotstudio/robotstudio.html",
@@ -1003,14 +1189,14 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "robotstudio.lumenapp",
-      "sha256": "763030da2b9f703a50cab38f13c7e0bc6caa1c958e1513615814230c5f78dbfb",
-      "size": 559106,
-      "files": 39
+      "sha256": "afdb7c00ccc003301fa465ff508fd6460a1c85a064db22b61766a34a3cea9a63",
+      "size": 6238234,
+      "files": 84
     },
     {
       "id": "python",
       "name": "Python",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "description": "Écrire et exécuter du Python dans un interpréteur isolé.",
       "category": "lab",
       "entry": "python/python.html",
@@ -1053,14 +1239,14 @@
         }
       ],
       "url": "python.lumenapp",
-      "sha256": "2d5bac11fe2e85ee317df7bff85faab87e942f73c496d309919fa58134f3afd5",
-      "size": 5803722,
-      "files": 33
+      "sha256": "f9317d3033fa05a37b23ddeb5e78dc71ba30b22c38156d208491cb3da751bd3b",
+      "size": 6207314,
+      "files": 78
     },
     {
       "id": "imagestudio",
       "name": "Studio d'images",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "description": "Génération d'images locale (Bonsai, Ollama ou API).",
       "category": "create",
       "entry": "studio/studio.html",
@@ -1080,14 +1266,14 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "imagestudio.lumenapp",
-      "sha256": "0be2954ffd90ca988e248c45ca4060ca22b508f2dcfc9e1ffa1d4a265bbec400",
-      "size": 190089,
+      "sha256": "42c28f3c509464425c534a5dae0eae8f3f8372f1487504c96dc5e76f05147b34",
+      "size": 209982,
       "files": 15
     },
     {
       "id": "musicstudio",
       "name": "Studio musical",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "description": "Studio musical génératif : presets, séquenceur, export WAV.",
       "category": "audio",
       "entry": "musicstudio/studio.html",
@@ -1109,14 +1295,14 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "musicstudio.lumenapp",
-      "sha256": "ac9810c4bc68b451134b5bb423079fa554e9c99f2494762249a4fb877a5c1c6f",
-      "size": 271877,
-      "files": 36
+      "sha256": "8703d88d69e81f8f2f183a0c0feec712a138553881184ba415773978f126fba5",
+      "size": 6200474,
+      "files": 76
     },
     {
       "id": "browser",
       "name": "Navigateur",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "description": "Naviguer sur le web, avec résumé, traduction et analyse par l'IA.",
       "category": "search",
       "entry": "browser/browser.html",
@@ -1137,14 +1323,14 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "browser.lumenapp",
-      "sha256": "caa7aed72e3069bcdfcbe92659df4170f7de20c67cfb168510d454135c173fd0",
-      "size": 267646,
-      "files": 30
+      "sha256": "51dfdcb1647fba4da7d529ce177ad224ac211f56e4f8638e0d40d17116b1e329",
+      "size": 6194272,
+      "files": 73
     },
     {
       "id": "budget",
       "name": "Budget",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "description": "Dépenses, objectifs et conseils de l'IA.",
       "category": "organize",
       "entry": "budget/budget.html",
@@ -1164,21 +1350,48 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "budget.lumenapp",
-      "sha256": "d67fd5bed5a1c5203aff54f1629a9d7b945e8c55199ba2fe7df12198a32d620a",
-      "size": 272937,
-      "files": 37
+      "sha256": "814fe8d576241ca0e0c84a082bf7641f30decdb5f6e116b915202f87b063273b",
+      "size": 6201608,
+      "files": 77
+    },
+    {
+      "id": "calculator",
+      "name": "Calculatrice",
+      "version": "0.3.0",
+      "description": "Calculatrice scientifique, statistiques et conversions d'unités ; même moteur que l'outil de calcul de l'IA.",
+      "category": "data",
+      "entry": "calculator/calculator.html",
+      "capabilities": [
+        "storage"
+      ],
+      "gradient": [
+        "#636366",
+        "#ff9f0a"
+      ],
+      "icon": "calculator",
+      "width": 760,
+      "height": 620,
+      "pro": false,
+      "trust": "first-party",
+      "minLumen": "0.2.0",
+      "url": "calculator.lumenapp",
+      "sha256": "9f2c4c6717a057755828c48c1913808263393b7f06ee2c61c13bfaeb3d7ee34d",
+      "size": 192108,
+      "files": 13
     },
     {
       "id": "domotique",
       "name": "Domotique",
-      "version": "0.2.0",
-      "description": "Objets connectés et firmwares ESP32/Pico.",
+      "version": "0.3.0",
+      "description": "Objets connectés, pièces, scènes, automatisations et firmwares ESP32/Pico.",
       "category": "lab",
       "entry": "domotique/domotique.html",
       "capabilities": [
         "ai",
         "storage",
-        "network"
+        "network",
+        "files",
+        "notifications"
       ],
       "gradient": [
         "#2aa98f",
@@ -1192,15 +1405,38 @@
       "prerequisites": "Des objets ESP32/Pico sous MicroPython sur le réseau local.",
       "trust": "first-party",
       "minLumen": "0.2.0",
+      "intents": [
+        {
+          "id": "run_scene",
+          "title": "Lancer une scène domotique",
+          "description": "Lance une scène enregistrée dans Domotique (plusieurs commandes d'objets d'un coup), par son nom.",
+          "parameters": {
+            "scene": {
+              "type": "string",
+              "description": "Nom de la scène (ex. Soirée, Je pars)"
+            }
+          },
+          "required": [
+            "scene"
+          ]
+        },
+        {
+          "id": "list_scenes",
+          "title": "Lister les scènes domotiques",
+          "description": "Liste les scènes enregistrées dans Domotique.",
+          "parameters": {},
+          "required": []
+        }
+      ],
       "url": "domotique.lumenapp",
-      "sha256": "a71df4c7a179ae4c0c1d705f32d2dc7285ac61da79e70b9ccb141f85014c176b",
-      "size": 279937,
-      "files": 36
+      "sha256": "e652ddcc39588752abbc03b96c46372278177d63b4d37404ede31a4a3b62d506",
+      "size": 6238355,
+      "files": 82
     },
     {
       "id": "relia",
       "name": "Relia",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "description": "CRM assisté par l'IA : projets, tâches, clients, devis et factures Factur-X.",
       "category": "people",
       "entry": "crm/crm.html",
@@ -1222,14 +1458,14 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "relia.lumenapp",
-      "sha256": "73bc0a296443d2494f7c034fb0662c7e2ce657d80e7292e50ef5335195cb707b",
-      "size": 319890,
-      "files": 44
+      "sha256": "c58abaed082b2ca0e5c9f6ee811153487b263d75f03993224fa52c5d2b404561",
+      "size": 6248141,
+      "files": 84
     },
     {
       "id": "meet",
       "name": "Réunion",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "description": "Visio et chat d'équipe sur votre réseau, avec compte rendu par l'IA.",
       "category": "comm",
       "entry": "meet/meet.html",
@@ -1251,14 +1487,14 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "meet.lumenapp",
-      "sha256": "4dffdc1f699d8cd4383137c3feaa27504307cc803c023b7100d1f2beec30ba32",
-      "size": 307430,
-      "files": 46
+      "sha256": "19275972607d4ac5e0a6496358bf3f2f01295898394b403a3c6fba4f77bd8c83",
+      "size": 6228052,
+      "files": 84
     },
     {
       "id": "dbstudio",
       "name": "DB Studio",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "description": "Modéliser une base : tables, champs typés, relations et formulaires.",
       "category": "data",
       "entry": "dbstudio/dbstudio.html",
@@ -1278,14 +1514,14 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "dbstudio.lumenapp",
-      "sha256": "6205be7b38b29652fe9df76d06c7afdea0bb1002db5a1e93b1fa286a68edc8a1",
-      "size": 309475,
-      "files": 45
+      "sha256": "f483d7c3da4981f75473937ea852f9d53191b5be81e867289b2339bbdfc56d90",
+      "size": 6237725,
+      "files": 85
     },
     {
       "id": "etl",
       "name": "Flux de données",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "description": "ETL visuel : sources, transformations et destinations reliées sur un canevas.",
       "category": "data",
       "entry": "etl/etl.html",
@@ -1306,42 +1542,14 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "etl.lumenapp",
-      "sha256": "20ea54c58d7448fec54520d38a77e86b2f548d6c31caf74cf41aa46ed6a7507b",
-      "size": 325242,
-      "files": 42
-    },
-    {
-      "id": "reporting",
-      "name": "Reporting",
-      "version": "0.2.0",
-      "description": "Rapports d'entreprise : indicateurs, graphiques et export, construits avec l'IA.",
-      "category": "data",
-      "entry": "reporting/reporting.html",
-      "capabilities": [
-        "ai",
-        "storage",
-        "tables",
-        "files"
-      ],
-      "gradient": [
-        "#ff9f0a",
-        "#ff375f"
-      ],
-      "icon": "layout-dashboard",
-      "width": 1320,
-      "height": 860,
-      "pro": false,
-      "trust": "first-party",
-      "minLumen": "0.2.0",
-      "url": "reporting.lumenapp",
-      "sha256": "d8ec2a7a526a69c970553efd7b68040f4e729b24b211fa25c0f6cba8011e8719",
-      "size": 679312,
-      "files": 47
+      "sha256": "201207ef13ac7d25c4d35b597702ad0e1e8abe52f0680f8b938f475e305531cd",
+      "size": 6254112,
+      "files": 82
     },
     {
       "id": "datasources",
       "name": "Sources de données",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "description": "Centre de connexions : bases, partages et API mis à disposition des apps Pro.",
       "category": "data",
       "entry": "datasources/datasources.html",
@@ -1361,14 +1569,14 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "datasources.lumenapp",
-      "sha256": "1fec380b81dafcfae8e243b3c0c776aad2e92651c1105ced0d3c96e6b298a5ad",
-      "size": 187018,
+      "sha256": "7b5012352e85225b80e80aced63d535e79627a395f013ba84e9c37e4fb872629",
+      "size": 206910,
       "files": 18
     },
     {
       "id": "directory",
       "name": "Annuaire",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "description": "Les personnes du réseau : présence, messages et invitations en réunion.",
       "category": "people",
       "entry": "directory/directory.html",
@@ -1388,14 +1596,14 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "directory.lumenapp",
-      "sha256": "839bd26c0d2cd8229cd247a2e1f3a9d658b23d253ab2e315a79f41935bc070cc",
-      "size": 183624,
+      "sha256": "357b24c2cd569445b84758732a11b194e7db19306d730f4e9f07f3c1e2d25e77",
+      "size": 203514,
       "files": 19
     },
     {
       "id": "messages",
       "name": "Messagerie d'équipe",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "description": "Conversations chiffrées de bout en bout avec votre équipe.",
       "category": "comm",
       "entry": "messages/messages.html",
@@ -1415,10 +1623,10 @@
       "trust": "first-party",
       "minLumen": "0.2.0",
       "url": "messages.lumenapp",
-      "sha256": "70078f914a31da9e4c7542d7142683ddddbf3a7f2b6a87c0513a4282d24bd0e9",
-      "size": 184515,
+      "sha256": "b68f5dabb79d114645895be4342bac936bf0f38b5058320723955223286d7860",
+      "size": 204406,
       "files": 17
     }
   ],
-  "signature": "e8xiiUo01ZselOSKMG_2r_hHlhM6chJCw9ZfSFLKUV3PyVV5hFuHKy3Xfpse5tTMO6dtiUnLWhUhaw851edBAQ"
+  "signature": "_luSZpIz6z1ns5Yly2-KHomiy74l4ApGMR9542jBv7E3Oq9IVM_XO8lnea2b96XHNrtFktc-TK2mXoJfne7MCw"
 }
